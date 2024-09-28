@@ -63,7 +63,13 @@ p {
     color: #666;
     margin-bottom: 1.5rem;
 }
-
+.contact-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap:1rem;
+    padding:0.10rem;
+}
 .buttons-div {
     display: flex;
     flex-direction: row;
@@ -101,6 +107,13 @@ p {
     }
     p {
         font-size: 0.9rem;
+    }
+    .contact-div{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        gap:0rem;
+        padding:0.10rem;
     }
     .buttons-div{
         flex-direction: column;
