@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 .container {
     background-color: white;
@@ -29,8 +29,8 @@ h1 {
     margin-bottom: 1rem;
 }
 .image-container {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #007bff;
@@ -45,11 +45,17 @@ h1 {
     object-position: center;
     border-radius: 50%;
 }
+.contact-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap:1rem;
+    padding:0.25rem;
+}
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #007bff;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
 }
 
 p {
