@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/adars2t8/public_html/
-    - /bin/cp * $DEPLOYPATH
-    # - /bin/cp index.html $DEPLOYPATH
-    # - /bin/cp -R styles $DEPLOYPATH
-    # - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
