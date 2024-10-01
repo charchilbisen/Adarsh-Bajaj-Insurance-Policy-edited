@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/adars2t8/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R styles $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
