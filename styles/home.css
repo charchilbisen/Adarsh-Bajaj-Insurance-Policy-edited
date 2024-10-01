@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+}
+h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.image-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.contact-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap:1rem;
+    padding:0.10rem;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #007bff;
+    margin-top:0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+.contact-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap:1rem;
+    padding:0.10rem;
+}
+.buttons-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cta-button {
+    display: flex;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    margin:0px 10px 0px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+    }
+    .container{
+        height:100vh;
+        justify-content:start;
+    }
+    .image-container {
+        width: 150px;
+        height:150px;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    h4{
+        margin:0px;
+        padding:0px;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .contact-div{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        gap:0rem;
+        padding:0.10rem;
+    }
+    .buttons-div{
+        flex-direction: column;
+    }
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
